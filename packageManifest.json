@@ -1,0 +1,36 @@
+{
+  "packageName": "Fully Kiosk Manager",
+  "author": "Michael Gettys",
+  "version": "3.0.0",
+  "minimumHEVersion": "0.0",
+  "dateReleased": "2023-02-27",
+  "apps": [
+    {
+      "id": "3163e1c8-b884-4f16-986d-4b25bc5cd264",
+      "name": "Fully Kiosk Director",
+      "namespace": "thegettys",
+      "location": "https://raw.githubusercontent.com/thegettys/hubitat-fully-kiosk/master/apps/fully-kiosk-app.groovy",
+      "required": false,
+      "oauth": false,
+      "primary": false
+    },
+    {
+      "id": "9d68471b-b0d6-490c-8ddc-029d20b542a9",
+      "name": "Fully Kiosk Director Child",
+      "namespace": "thegettys",
+      "location": "https://raw.githubusercontent.com/thegettys/hubitat-fully-kiosk/master/apps/fully-kiosk-app-child.groovy",
+      "required": false,
+      "oauth": false,
+      "primary": false
+    }
+  ],
+  "drivers": [
+    {
+      "id": "1c2acd64-8df8-452e-be3c-e1d2004f3da3",
+      "name": "Fully Kiosk Browser Controller",
+      "namespace": "thegettys",
+      "location": "https://raw.githubusercontent.com/thegettys/hubitat-fully-kiosk/master/drivers/FullyKioskBrowserController.groovy",
+      "required": false
+    }
+  ]
+}
